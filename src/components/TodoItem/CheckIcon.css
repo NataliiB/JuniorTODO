@@ -1,0 +1,14 @@
+.beHeart {
+    color: rgb(220, 50, 155);
+    padding: 0.4em;
+    padding-top: 0.7em;
+    text-align: center;
+    font-size: 20px;
+}
+.biCheck {
+    color: rgb(100, 196, 100);
+    padding: 0.4em;
+    padding-top: 0.7em;
+    text-align: center;
+    font-size: 20px;
+}

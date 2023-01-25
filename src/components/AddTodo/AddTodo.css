@@ -1,0 +1,11 @@
+.addTodoField>details>button {
+    height: 2em;
+    width: 3em;
+}
+.addTodoField>details>input {
+    height: 2.5em;
+    width: 20em;
+}
+.addTodoField>details>summary {
+    list-style: none;
+    } 
