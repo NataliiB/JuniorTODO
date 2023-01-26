@@ -1,11 +1,28 @@
 .addTodoField>details>button {
     height: 2em;
     width: 3em;
+    margin-left: 1em;
 }
 .addTodoField>details>input {
     height: 2.5em;
-    width: 20em;
+    width: 15.4em;
+    background-color: gray;
+    margin-top: 1em;
+    margin-left: 44px;
+    font-size: 20px;
+    color: aliceblue;
+    border-style: none;
+    border-radius: 3%;
 }
 .addTodoField>details>summary {
     list-style: none;
     } 
+    .addTodoField>details>summary>svg {
+        width: 2em;
+        height: 2em;
+        color: gray;
+    }
+    .addTodoField>details>input::placeholder {
+        color: rgb(183, 185, 187);
+    }
+    

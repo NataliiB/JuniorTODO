@@ -1,35 +1,54 @@
 .checkIcon {
   border-color: rgb(212, 194, 197);
-  background-color: rgb(50, 49, 49);
-  display: flex;
-  flex-direction: column;
   color: aliceblue;
-  margin:0.7em;
-  justify-items: center;
-}
-
-.itemMembers {
+ padding-right: 0;
+  background-color: grey;
+  width: 20em;
+  height: 70px;
   display: flex;
   flex-direction: row;
-justify-items: center;
- justify-content: space-between;
+  border-top-left-radius: 4%;
+  border-bottom-left-radius: 4%
 }
+
 .todoTitle {
-display: block;
-width: 10em;
-padding: 0.5em;
-font-size: 20px;
+  width: 10em;
+  padding: 0.5em;
+  font-size: 20px;
+  cursor: pointer;
+  height: 1em;
+  margin-bottom: 0;
+  margin-top: 12px;
 }
 .todoTitleCross {
-display: block;
-width: 10em;
-padding: 0.5em;
-font-size: 20px;
-text-decoration: line-through;
+  display: block;
+  width: 10em;
+  padding: 0.5em;
+  font-size: 20px;
+  text-decoration: line-through;
 }
 .fcEmptyTrash {
-  background-color: rgb(50, 49, 49);
+  background-color: grey;
   font-size: 1.5em;
-  height: 4em;
-  justify-items: center;
+  height: 70px;
+  cursor: pointer;
+  margin:0;
+  border-top-right-radius: 10%;
+  border-bottom-right-radius: 10%;
+  display: block;
+  width: 2em;
+  
+  
+}
+div > button {
+  border: none;
+  float: left;
+}
+
+.containerForItem {
+  display: flex;
+  justify-content: center;
+  margin: 2em;
+
+  
 }

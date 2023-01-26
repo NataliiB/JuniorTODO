@@ -24,20 +24,20 @@ const Home = () => {
     setTodos([...todos].filter((t) => t.id !== id));
   };
 
-  
-
   return (
-    <div className="homeTitle">
-      <h1>Junior TODO</h1>
+    <div>
+      <div className="homeTitle">
+        <span>Junior</span> TODO
+      </div>
       {todos.map((todo) => (
-        <div>
+        
           <TodoItem
             key={todo.id}
             todo={todo}
             changeTodo={changeTodo}
             removeTodo={removeTodo}
           />
-        </div>
+        
       ))}
       <AddTodo setTodos={setTodos} todos={todos} />
     </div>
